@@ -1,0 +1,55 @@
+body {
+  background-color: burlywood;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.contener {
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 15px;
+  background-color: tan;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+  margin-left: 50px;
+  margin: 200px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: darkslategray;
+}
+
+tr:hover {
+  background-color: dimgray;
+}
+
+#details caption {
+  font-weight: bold;
+  font-size: 10px;
+  color: brown;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.animation {
+  animation: slidein 2s ease-in-out infinite alternate;
+}
+
+@keyframes slidein {
+  0% { transform: translateX(-50px); }
+  100% { transform: translateX(50px); }
+}
